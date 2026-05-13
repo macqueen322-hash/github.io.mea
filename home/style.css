@@ -1,0 +1,222 @@
+.desktop {
+  	width: 100%;
+  	height: 1500px;
+  	position: relative;
+  	background-color: #eee;
+  	text-align: left;
+  	font-size: 20px;
+  	color: #000;
+  	font-family: KoHo;
+}
+.Gemini_Image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1515px;  
+    height: 665px;  
+    object-fit: cover;
+}
+.desktop-child {
+  	position: absolute;
+  	height: 100%;
+  	top: 0px;
+  	right: 0px;
+  	bottom: 0px;
+  	background-color: #fff;
+  	width: 500px;
+}
+.mea {
+  	position: absolute;
+  	top: 1px;
+  	left: 0px;
+  	font-size: 256px;
+  	color: #fff;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 627px;
+  	height: 243px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	opacity: 0.83;
+}
+.personal-portfolio {
+  	position: absolute;
+  	top: 14px;
+  	right: 36px;
+  	font-size: 32px;
+  	font-family: Jost;
+  	display: inline-block;
+  	width: 381px;
+  	height: 89px;
+}
+.copyright2026-in9-icsin9gmai {
+  	position: absolute;
+  	right: 47px;
+  	bottom: 32px;
+  	font-size: 16px;
+  	font-family: Jost;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 391px;
+  	height: 92px;
+}
+.desktop-item {
+  	position: absolute;
+  	top: 142px;
+  	right: 63px;
+  	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  	max-height: 100%;
+  	width: 350px;
+}
+.desktop-inner {
+  	position: sticky;
+  	top: 181px;
+  	left: 105%;
+  	width: 378px;
+  	height: 484px;
+  	font-size: 40px;
+}
+.archive-parent {
+  	position: relative;
+  	top: 0px;
+  	left: 0px;
+  	width: 378px;
+  	height: 437px;
+}
+.archive {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	width: 260px;
+  	height: 80px;
+  	cursor: pointer;
+	transition: all 0.4s ease;
+	color: #000000;
+}
+.archive:hover {
+	color: #2672dc;
+	transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
+}
+.d-modeling {
+  	position: absolute;
+  	width: 100%;
+  	top: 119px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	height: 80px;
+  	cursor: pointer;
+	transition: all 0.4s ease;
+	color: #000000;
+}
+.d-modeling:hover {
+	color: #2672dc;
+	transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
+}
+.project {
+  	position: absolute;
+  	top: 238px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	width: 260px;
+  	height: 80px;
+  	cursor: pointer;
+	transition: all 0.4s ease;
+	color: #000000;
+}
+.project:hover {
+	color: #2672dc;
+	transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
+}
+.ect {
+  	position: absolute;
+  	bottom: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	width: 260px;
+  	height: 80px;
+	transition: all 0.4s ease;
+}
+.ect:hover {
+    color: #2672dc;
+	transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
+}
+.multi-environmental-architectu {
+  	position: absolute;
+  	top: 399px;
+  	left: 59px;
+  	font-size: 48px;
+  	color: rgba(255, 255, 255, 0.8);
+  	display: flex;
+  	align-items: center;
+  	width: 344px;
+  	height: 266px;
+  	text-shadow: 1px 0 0 rgba(255, 255, 255, 0.8), 0 1px 0 rgba(255, 255, 255, 0.8), -1px 0 0 rgba(255, 255, 255, 0.8), 0 -1px 0 rgba(255, 255, 255, 0.8);
+}
+.mea2 {
+  	position: absolute;
+  	top: 784px;
+  	left: 29px;
+  	font-family: 'IBM Plex Mono';
+  	color: #151f62;
+  	display: inline-block;
+  	width: 1446px;
+  	height: 224px;
+}
+.vision {
+  	position: absolute;
+  	top: 665px;
+  	left: 1170px;
+  	font-size: 96px;
+  	color: #2672dc;
+  	display: inline-block;
+  	width: 315px;
+  	height: 109px;
+}
+.introduction {
+  	position: absolute;
+  	top: 1065px;
+  	left: 29px;
+  	font-size: 64px;
+  	color: #2672dc;
+  	display: inline-block;
+  	width: 549px;
+  	height: 83px;
+}
+.mea3 {
+  	position: absolute;
+  	top: 1165px;
+  	left: 29px;
+  	font-family: 'IBM Plex Mono';
+  	color: #151f62;
+  	display: inline-block;
+  	width: 1410px;
+  	height: 235px;
+}
+
+
+body {
+  	margin: 0;
+  	line-height: normal;
+transform: scale(0.75);
+    transform-origin: 0 0; 
+    width: 133.33%;
+}
+
+
