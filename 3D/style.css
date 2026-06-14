@@ -10,7 +10,8 @@ body {
     transform: scale(0.75);
     transform-origin: 0 0; 
     width: 133.33%;
-    overflow: hidden; 
+    overflow-x: hidden;
+	overflow-y: visible;
 }
 .d {
     width: 100%;
