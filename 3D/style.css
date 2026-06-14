@@ -113,6 +113,14 @@
   	height: 94px;
   	flex-shrink: 0;
 }
+.header-menu {
+    position: fixed;    
+    top: 0px;           
+    right: 0px;        
+    width: 650px;       
+    height: 400px;      
+    z-index: 1002;      
+}
 .home {
   	position: absolute;
   	top: 20px;
@@ -129,7 +137,7 @@
   	flex-shrink: 0;
 }
 .d-modeling {
-  	position: fixed;
+  	position: absolute;
   	top: 87px;
   	right: 0px;
   	font-size: 96px;
@@ -142,7 +150,7 @@
   	flex-shrink: 0;
 }
 .archive {
-  	position: fixed;
+  	position: absolute;
   	top: 31px;
   	right: 0px;
   	display: flex;
@@ -162,7 +170,7 @@
     z-index: 1001;
 }
 .project {
-  	position: fixed;
+  	position: absolute;
   	top: 238px;
   	right: -9px;
   	display: flex;
@@ -182,7 +190,7 @@
     z-index: 1001;
 }
 .ect {
-  	position: fixed;
+  	position: absolute;
   	top: 318px;
   	right: -36px;
   	display: flex;
