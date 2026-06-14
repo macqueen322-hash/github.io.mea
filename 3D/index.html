@@ -37,5 +37,14 @@
 </div>
   	
   	<link rel="stylesheet" href="style.css">
+  <script>
+        const headerMenu = document.querySelector('.header-menu');
+        const initialTop = 0; 
+
+        window.addEventListener('scroll', () => {
+            let scrollTop = window.scrollY / 0.75; 
+            headerMenu.style.top = (initialTop + scrollTop) + 'px';
+        });
+    </script>
   	</body>
 </html>
