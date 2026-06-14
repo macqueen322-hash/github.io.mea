@@ -1,9 +1,8 @@
 .d {
   	width: 100%;
-  	min-height: 100vh;
+  	height: 1980px;
   	position: relative;
   	background-color: #fff;
-  	overflow-y: hidden;
   	text-align: center;
   	font-size: 40px;
   	color: #000;
