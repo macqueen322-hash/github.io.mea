@@ -114,7 +114,7 @@
   	flex-shrink: 0;
 }
 .header-menu {
-    position: fixed;    
+    position: absolute;    
     top: 0px;           
     right: 0px;        
     width: 650px;       
