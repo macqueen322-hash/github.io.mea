@@ -11,40 +11,38 @@
 <body>
     
     <div class="d">
-        <div class="rectangle-parent">
-            <div class="group-child"></div>
-            <div class="copyright2026-in9-icsin9gmai">copyright2026. in9<br>icsin9@gmail.com</div>
-        </div>
         <div class="div"></div>
         <img src="스크린샷 2026-04-20 193401.png" class="horizontipo">
         
         <div class="div2"></div>
         <img src="23135860김수민_기말고사.jpg" class="demeter">
+        
         <img src="23135860김수민_중간_이모티콘2.gif" class="gif1">
         
         <div class="horizon">2023 1학기 타이포그래피<br>HORIZON </div>
         <div class="div3">2023 2학기 컴퓨터그래픽<br>향수광고</div>
         <div class="div4">2023 2학기 컴퓨터그래픽<br>이모티콘</div>
 
-        <a href="../home/index.html"><span class="home" id="hOMEText">HOME</span></a>
+        <a href="../home/index.html" class="home-link"><span class="home" id="hOMEText">HOME</span></a>
 
         <div class="header-menu">
-            <a href="../3D/index.html"><div class="d-modeling" id="dModelingText">3D Modeling</div></a>
-            
-            <div class="archive2">Archive</div> 
-            
-            <a href="../project/index.html"><div class="project" id="projectText">Project</div></a>
-            
+            <div class="archive2">Archive</div>
+            <a href="../3D/index.html"><div class="d-modeling">3D Modeling</div></a>
+            <a href="../project/index.html"><div class="project">Project</div></a>
             <div class="ect">ECT</div>
         </div>
 
-    </div> <script>
-        const headerMenu = document.querySelector('.header-menu');
-        const initialTop = 0; 
+        <div class="rectangle-parent">
+            <div class="group-child"></div>
+            <div class="copyright2026-in9-icsin9gmai">copyright2026. in9<br>icsin9@gmail.com</div>
+        </div>
+    </div>
 
+    <script>
+        const headerMenu = document.querySelector('.header-menu');
         window.addEventListener('scroll', () => {
-            let scrollTop = window.scrollY / 0.75; 
-            headerMenu.style.top = (initialTop + scrollTop) + 'px';
+            let scrollTop = window.scrollY / 0.75;
+            headerMenu.style.transform = `translateY(${scrollTop}px)`;
         });
     </script>
 </body>
