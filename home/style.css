@@ -16,7 +16,7 @@ body {
 }
 .desktop {
     width: 100%;    
-	height: 1600px; 
+	height: 1500px; 
     position: relative;
     background-color: #eee;
     text-align: left;
@@ -114,13 +114,13 @@ body {
   	height: 80px;
   	cursor: pointer;
 	transition: all 0.4s ease;
+	transform-origin: center;
 	color: #000000;
 }
 .archive:hover {
 	color: #2672dc;
 	transform: scale(1.1); 
     transition: transform 0.3s ease; 
-	transform-origin: center center !important;
     z-index: 1001;
 }
 .d-modeling {
@@ -133,13 +133,13 @@ body {
   	height: 80px;
   	cursor: pointer;
 	transition: all 0.4s ease;
+	transform-origin: center;
 	color: #000000;
 }
 .d-modeling:hover {
 	color: #2672dc;
 	transform: scale(1.1); 
     transition: transform 0.3s ease; 
-	transform-origin: center center !important;
     z-index: 1001;
 }
 .project {
@@ -152,13 +152,13 @@ body {
   	height: 80px;
   	cursor: pointer;
 	transition: all 0.4s ease;
+	transform-origin: center;
 	color: #000000;
 }
 .project:hover {
 	color: #2672dc;
 	transform: scale(1.1); 
     transition: transform 0.3s ease; 
-	transform-origin: center center !important;
     z-index: 1001;
 }
 .ect {
@@ -170,12 +170,12 @@ body {
   	width: 260px;
   	height: 80px;
 	transition: all 0.4s ease;
+	transform-origin: center;
 }
 .ect:hover {
     color: #2672dc;
 	transform: scale(1.1); 
     transition: transform 0.3s ease; 
-	transform-origin: center center !important;
     z-index: 1001;
 }
 .multi-environmental-architectu {
