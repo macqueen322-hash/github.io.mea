@@ -168,7 +168,7 @@
     color: inherit;
 }
 .d-modeling {
-  	position: fixed;
+  	position: absolute;
   	top: 158px;
   	right: -21px;
   	font-size: 40px;
@@ -181,6 +181,7 @@
   	cursor: pointer;
   	flex-shrink: 0;
     transition: all 0.4s ease;
+	transform-origin: right center;
 }
 .d-modeling:hover {
     color: #2672dc;
@@ -189,7 +190,7 @@
     z-index: 1001;
 }
 .project {
-  	position: fixed;
+  	position: absolute;
   	top: 238px;
   	right: -9px;
   	font-size: 40px;
@@ -210,7 +211,7 @@
     z-index: 1001;
 }
 .ect {
-  	position: fixed;
+  	position: absolute;
   	top: 318px;
   	right: -36px;
   	font-size: 40px;
@@ -229,7 +230,7 @@
     z-index: 1001;
 }
 .archive2 {
-  	position: fixed;
+  	position: absolute;
   	top: 0px;
   	right: 0px;
   	font-size: 96px;
