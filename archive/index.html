@@ -13,7 +13,7 @@
 </head>
 <body>
   	
-  	<div class="archive">
+  	<div class="d">
     		<div class="rectangle-parent">
       			<div class="group-child">
       			</div>
@@ -32,15 +32,27 @@
     		<div class="horizon">2023 1학기 타이포그래피<br>HORIZON </div>
     		<div class="div3">2023 2학기 컴퓨터그래픽<br>향수광고</div>
     		<div class="div4">2023 2학기 컴퓨터그래픽<br>이모티콘</div>
-			<div class="ect">Ect</div>
-    		<div class="archive2">Archive</div>
+			<div class="header-menu">
+                <div class="d-modeling">3D Modeling</div>
+                <div class="archive2">Archive</div>
+                <div class="project">Project</div>
+                <div class="ect">ECT</div>
+	    	</div>
 			<a href="../home/index.html">
 				<span class="home" id="hOMEText">HOME</span></a>
 			<a href="../3D/index.html">
 				<span class="d-modeling" id="dModelingText">3D Modeling</span></a>
 			<a href="../project/index.html">
 				<span class="project" id="projectText">Project</span></a>
+	</div>
+	<script>
+        const headerMenu = document.querySelector('.header-menu');
+        const initialTop = 0; 
 
-  	</div>
+        window.addEventListener('scroll', () => {
+            let scrollTop = window.scrollY / 0.75; 
+            headerMenu.style.top = (initialTop + scrollTop) + 'px';
+        });
+    </script>
   	</body>
 </html>
