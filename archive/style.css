@@ -358,8 +358,7 @@ body {
     .horizon {
         width: 90% !important;
         left: 5% !important;
-        /* 이미지가 줄어들면서 올라오므로, top 값을 적절히 조절해야 할 수 있습니다. */
-        top: 741px; 
+		height: auto !important;
     }
 }
 
@@ -388,7 +387,7 @@ body {
     .div3 {
         width: 90% !important;
         left: 5% !important;
-        top: 1535px; /* 위치 조정 */
+        height: auto !important;
     }
 }
 @media (max-width: 545px) {
@@ -404,6 +403,6 @@ body {
     .div4 {
         width: 90% !important;
         left: 5% !important;
-        top: 2252px; /* 위치 조정 */
+        height: auto !important;
     }
 }
