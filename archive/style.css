@@ -356,7 +356,7 @@ body {
 
     /* 이미지 밑의 설명 텍스트 (div3) 위치 조정 */
     .horizon {
-        width: 90% !important;
+        width: 50% !important;
         left: 5% !important;
 		height: auto !important;
     }
@@ -385,7 +385,7 @@ body {
 
     /* 두 번째 설명 텍스트 (div4) 위치 조정 */
     .div3 {
-        width: 90% !important;
+        width: 50% !important;
         left: 5% !important;
         height: auto !important;
     }
