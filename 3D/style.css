@@ -283,3 +283,65 @@ body {
         font-size: 14px;
     }
 }
+/* ==========================================
+   이미지 반응형 조절 (화면 폭 1300px 이하부터 서서히 적용)
+   ========================================= */
+@media (max-width: 1300px) {
+    /* 첫 번째 큰 이미지 (Jet) */
+    .jet {
+        /* 고정 폭(1063px)을 해제하고, 화면 너비에 맞춥니다. */
+        width: 90% !important; 
+        height: auto !important; /* 비율에 맞춰 높이 자동 조절 */
+        
+        /* absolute 위치를 중앙으로 잡습니다. */
+        left: 5% !important; 
+        top: 204px; /* 위쪽 여백은 유지 */
+    }
+
+    /* 첫 번째 이미지 밑의 그림자 박스(div)도 같이 조절 */
+    .div {
+        width: 90% !important;
+        height: auto !important; /* 내용물 높이에 맞춤 */
+        min-height: 595px; /* 최소 높이는 유지 */
+        left: 5% !important;
+        top: 237px;
+    }
+
+    /* 이미지 밑의 설명 텍스트 (div3) 위치 조정 */
+    .div3 {
+        width: 90% !important;
+        left: 5% !important;
+        /* 이미지가 줄어들면서 올라오므로, top 값을 적절히 조절해야 할 수 있습니다. */
+        top: 850px; 
+    }
+}
+
+/* ==========================================
+   작은 이미지 반응형 조절 (화면 폭 900px 이하부터 적용)
+   ========================================= */
+@media (max-width: 900px) {
+    /* 두 번째 세로 이미지 (Can) */
+    .can {
+        width: 80% !important; /* 가로폭을 좀 더 넓게 씁니다. */
+        height: auto !important;
+        left: 10% !important; /* 중앙 정렬 */
+        /* PC 버전의 위치(top: 1100px)가 너무 멀면 조절 */
+        top: 1000px; 
+    }
+
+    /* 두 번째 이미지 밑의 그림자 박스(div2)도 조절 */
+    .div2 {
+        width: 80% !important;
+        height: auto !important;
+        min-height: 596px;
+        left: 10% !important;
+        top: 998px;
+    }
+
+    /* 두 번째 설명 텍스트 (div4) 위치 조정 */
+    .div4 {
+        width: 90% !important;
+        left: 5% !important;
+        top: 1600px; /* 위치 조정 */
+    }
+}
