@@ -402,8 +402,8 @@ body {
     }
     /* 두 번째 설명 텍스트 (div4) 위치 조정 */
     .div4 {
-        width: 90% !important;
+        width: 50% !important;
         left: 5% !important;
-        top: 2152px;
+        top: 2182px;
     }
 }
