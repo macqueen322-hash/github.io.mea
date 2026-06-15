@@ -229,3 +229,41 @@ body {
     transition: transform 0.3s ease; 
     z-index: 1001;
 }
+@media (max-width: 768px) {
+    .d {
+        font-size: 24px;
+    }
+    .d-modeling {
+        font-size: 48px; 
+        width: auto;     
+        right: 20px;     
+    }
+    .home {
+        font-size: 20px; 
+    }
+    .archive, .project, .ect {
+        font-size: 24px; 
+        width: auto;     
+    }
+    .div3, .div4 {
+        font-size: 16px; 
+        width: 90%;     
+        left: 5%;        
+    }
+    .rectangle-parent {
+        font-size: 12px; 
+    }
+    .copyright2026-in9-icsin9gmai {
+        width: auto;    
+        right: 20px;
+        bottom: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .d-modeling {
+        font-size: 36px; 
+    }
+    .div3, .div4 {
+        font-size: 14px;
+    }
+}
