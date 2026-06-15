@@ -300,7 +300,7 @@ body {
     .d-modeling, .project, .ect {
         font-size: 24px; /* 본문 크기에 맞춰 축소 */
         width: auto;     /* absolute 고정 폭 해제하여 글자 안 겹치게 */
-		right: 20px;
+		right: 10px;
     }
 
     /* 이미지 하단 설명 글자 크기 조절 (div3, div4) */
@@ -359,7 +359,7 @@ body {
     .horizon {
         width: 50% !important;
         left: 5% !important;
-		height: 20% !important;
+		height: auto !important;
     }
 }
 
@@ -388,7 +388,7 @@ body {
     .div3 {
         width: 50% !important;
         left: 5% !important;
-        height: 20% !important;
+        height: auto !important;
     }
 }
 @media (max-width: 545px) {
@@ -404,6 +404,6 @@ body {
     .div4 {
         width: 90% !important;
         left: 5% !important;
-        height: 20% !important;
+        height: auto !important;
     }
 }
