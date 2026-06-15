@@ -400,12 +400,12 @@ body {
         height: auto !important;
         left: 10% !important; /* 중앙 정렬 */
         /* PC 버전의 위치(top: 1100px)가 너무 멀면 조절 */
-        top: 1000px; 
+        bottom: 308px;
     }
     /* 두 번째 설명 텍스트 (div4) 위치 조정 */
     .div4 {
         width: 90% !important;
         left: 5% !important;
-        top: 1600px; /* 위치 조정 */
+        top: 2252px; /* 위치 조정 */
     }
 }
