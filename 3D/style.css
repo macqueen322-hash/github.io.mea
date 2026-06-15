@@ -229,3 +229,57 @@ body {
     transition: transform 0.3s ease; 
     z-index: 1001;
 }
+/* ==========================================
+   모바일 전용 화면 (화면 폭 768px 이하일 때만 적용)
+   ========================================== */
+@media (max-width: 768px) {
+    /* 기본 루트 글자 크기 조절 */
+    .d {
+        font-size: 24px; /* 기존 40px에서 모바일용으로 축소 */
+    }
+
+    /* 3D Modeling 커다란 타이틀 글자 크기 조절 */
+    .d-modeling {
+        font-size: 48px; /* 기존 96px에서 절반으로 축소 */
+        width: auto;     /* 가로 폭이 잘리지 않도록 유연하게 변경 */
+        right: 20px;     /* 오른쪽 여백 살짝 조정 */
+    }
+
+    /* 상단 메뉴(Home, Archive, Project, Etc) 글자 크기 조절 */
+    .home {
+        font-size: 20px; /* 기존 32px에서 축소 */
+    }
+    .archive, .project, .ect {
+        font-size: 24px; /* 본문 크기에 맞춰 축소 */
+        width: auto;     /* absolute 고정 폭 해제하여 글자 안 겹치게 */
+    }
+
+    /* 이미지 하단 설명 글자 크기 조절 (div3, div4) */
+    .div3, .div4 {
+        font-size: 16px; /* 기존 24px에서 축소 */
+        width: 90%;      /* 화면 밖으로 나가지 않도록 가로폭을 화면의 90%로 조절 */
+        left: 5%;        /* 가운데 정렬 배치 */
+    }
+
+    /* 하단 푸터 카피라이트 글자 크기 조절 */
+    .rectangle-parent {
+        font-size: 12px; /* 기존 16px에서 축소 */
+    }
+    .copyright2026-in9-icsin9gmai {
+        width: auto;     /* 픽셀 고정을 풀어서 모바일 화면에 맞춤 */
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+/* ==========================================
+   초소형 모바일 전용 (화면 폭 480px 이하일 때 추가 조절)
+   ========================================== */
+@media (max-width: 480px) {
+    .d-modeling {
+        font-size: 36px; /* 폰 화면이 아주 작을 때는 더 작게 */
+    }
+    .div3, .div4 {
+        font-size: 14px;
+    }
+}
