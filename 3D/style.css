@@ -252,7 +252,7 @@ body {
     .archive, .project, .ect {
         font-size: 24px; /* 본문 크기에 맞춰 축소 */
         width: auto;
-		right: 10px;
+		right: 15px;
     }
 
     /* 이미지 하단 설명 글자 크기 조절 (div3, div4) */
