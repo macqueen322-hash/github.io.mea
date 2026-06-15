@@ -13,7 +13,6 @@ body {
     width: 133.33%;
     height: auto !important;
     overflow-x: hidden;
-    overflow-y: visible !important;
 }
 .desktop {
     width: 100%;    
