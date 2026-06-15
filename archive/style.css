@@ -359,7 +359,7 @@ body {
     .horizon {
         width: 50% !important;
         left: 5% !important;
-		height: auto !important;
+		top: 741px;
     }
 }
 
@@ -388,7 +388,7 @@ body {
     .div3 {
         width: 50% !important;
         left: 5% !important;
-        height: auto !important;
+        top: 1535px;
     }
 }
 @media (max-width: 545px) {
@@ -404,6 +404,6 @@ body {
     .div4 {
         width: 90% !important;
         left: 5% !important;
-        height: auto !important;
+        top: 2252px;
     }
 }
