@@ -1,231 +1,231 @@
 html {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden; 
-    overflow-y: auto;   
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    overflow-y: auto;   
 }
 body {
-    margin: 0;
-    line-height: normal;
-    transform: scale(0.75);
-    transform-origin: 0 0; 
-    width: 133.33%;
-    overflow-x: hidden;
+    margin: 0;
+    line-height: normal;
+    transform: scale(0.75);
+    transform-origin: 0 0; 
+    width: 133.33%;
+    overflow-x: hidden;
 	overflow-y: visible;
 }
 .d {
-    width: 100%;
-    height: 2000px; 
-    position: relative;
-    background-color: #fff;
-    text-align: center;
-    font-size: 40px;
-    color: #000;
-    font-family: KoHo;
-    overflow: hidden; 
+    width: 100%;
+    height: 2000px; 
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    font-family: KoHo;
+    overflow: hidden; 
 }
 .rectangle-parent {
-  	position: absolute;
-  	bottom: 0px;
+  	position: absolute;
+  	bottom: 0px;
 	right: 0px;
-  	left: 0px;
-  	width: 100%;
-  	height: 144px;
-  	flex-shrink: 0;
-  	font-size: 16px;
-  	font-family: Jost;
+  	left: 0px;
+  	width: 100%;
+  	height: 144px;
+  	flex-shrink: 0;
+  	font-size: 16px;
+  	font-family: Jost;
 	z-index: 10;
 }
 .group-child {
-  	position: absolute;
-  	bottom: 0px;
-  	left: 0px;
-  	background-color: #eee;
-  	width: 100%;
-  	height: 144px;
+  	position: absolute;
+  	bottom: 0px;
+  	left: 0px;
+  	background-color: #eee;
+  	width: 100%;
+  	height: 144px;
 }
 .copyright2026-in9-icsin9gmai {
-  	position: absolute;
-  	bottom: 32px;
-  	right: 40px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 392px;
-  	height: 92px;
+  	position: absolute;
+  	bottom: 32px;
+  	right: 40px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 392px;
+  	height: 92px;
 }
 .div {
-  	position: absolute;
-  	top: 237px;
-  	left: 234px;
-  	box-shadow: 20px 30px 20.4px rgba(0, 0, 0, 0.25);
-  	background-color: #fff;
-  	width: 1063px;
-  	height: 595px;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 237px;
+  	left: 234px;
+  	box-shadow: 20px 30px 20.4px rgba(0, 0, 0, 0.25);
+  	background-color: #fff;
+  	width: 1063px;
+  	height: 595px;
+  	flex-shrink: 0;
 }
 .div2 {
-  	position: absolute;
-  	top: 1098px;
-  	left: 480px;
-  	box-shadow: 20px 30px 20.4px rgba(0, 0, 0, 0.25);
-  	background-color: #fff;
-  	width: 395px;
-  	height: 596px;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 1098px;
+  	left: 480px;
+  	box-shadow: 20px 30px 20.4px rgba(0, 0, 0, 0.25);
+  	background-color: #fff;
+  	width: 395px;
+  	height: 596px;
+  	flex-shrink: 0;
 }
 .jet {
-  	position: absolute;
-  	top: 204px;
-  	left: 209px;
-  	box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.29);
-  	width: 1063px;
-  	height: 595px;
-  	object-fit: cover;
-  	flex-shrink: 0;
-    transition: all 0.4s ease;
+  	position: absolute;
+  	top: 204px;
+  	left: 209px;
+  	box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.29);
+  	width: 1063px;
+  	height: 595px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+    transition: all 0.4s ease;
 }
 .jet:hover {
-    transform: scale(1.05); 
-    transition: transform 0.3s ease; 
-    z-index: 1001;
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
 }
 .can {
-  	position: absolute;
-  	top: 1100px;
-  	left: 460px;
-  	box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.25);
-  	width: 380px;
-  	height: 560px;
-  	object-fit: cover;
-  	flex-shrink: 0;
-    transition: all 0.4s ease;
+  	position: absolute;
+  	top: 1100px;
+  	left: 460px;
+  	box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.25);
+  	width: 380px;
+  	height: 560px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+    transition: all 0.4s ease;
 }
 .can:hover {
-    transform: scale(1.05); 
-    transition: transform 0.3s ease; 
-    z-index: 1001;
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
 }
 .div3 {
-  	position: absolute;
-  	top: 878px;
-  	left: 320px;
-  	font-size: 24px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 753px;
-  	height: 94px;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 878px;
+  	left: 320px;
+  	font-size: 24px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 753px;
+  	height: 94px;
+  	flex-shrink: 0;
 }
 .div4 {
-  	position: absolute;
-  	top: 1733px;
-  	left: 320px;
-  	font-size: 24px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 753px;
-  	height: 94px;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 1733px;
+  	left: 320px;
+  	font-size: 24px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 753px;
+  	height: 94px;
+  	flex-shrink: 0;
 }
 .header-menu {
-    position: absolute;    
-    top: 0px;           
-    right: 0px;        
-    width: 650px;       
-    height: 400px;      
-    z-index: 1005;     
+    position: absolute;    
+    top: 0px;           
+    right: 0px;        
+    width: 650px;       
+    height: 400px;      
+    z-index: 1005;     
 	transform-origin: right top;
 }
 .header-menu a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 .home {
-  	position: absolute;
-  	top: 20px;
-  	left: 27px;
-  	font-size: 32px;
-  	font-weight: 600;
-  	color: #2672dc;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 90px;
-  	height: 59px;
-  	cursor: pointer;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 20px;
+  	left: 27px;
+  	font-size: 32px;
+  	font-weight: 600;
+  	color: #2672dc;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 90px;
+  	height: 59px;
+  	cursor: pointer;
+  	flex-shrink: 0;
 }
 .d-modeling {
-  	position: absolute;
-  	top: 87px;
-  	right: 0px;
-  	font-size: 96px;
-  	color: #2672dc;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 622px;
-  	height: 158px;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 87px;
+  	right: 0px;
+  	font-size: 96px;
+  	color: #2672dc;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 622px;
+  	height: 158px;
+  	flex-shrink: 0;
 }
 .archive {
-  	position: absolute;
-  	top: 31px;
-  	right: 0px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
+  	position: absolute;
+  	top: 31px;
+  	right: 0px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
 	color: #000000;
-  	width: 260px;
-  	height: 80px;
-  	cursor: pointer;
-  	flex-shrink: 0;
-    transition: all 0.4s ease;
+  	width: 260px;
+  	height: 80px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+    transition: all 0.4s ease;
 }
 .archive:hover {
-    color: #2672dc;
-    transform: scale(1.1); 
-    transition: transform 0.3s ease; 
-    z-index: 1001;
+    color: #2672dc;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
 }
 .project {
-  	position: absolute;
-  	top: 238px;
-  	right: -9px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
+  	position: absolute;
+  	top: 238px;
+  	right: -9px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
 	color: #000000;
-  	width: 260px;
-  	height: 80px;
-  	cursor: pointer;
-  	flex-shrink: 0;
-    transition: all 0.4s ease;
+  	width: 260px;
+  	height: 80px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+    transition: all 0.4s ease;
 }
 .project:hover {
-    color: #2672dc;
-    transform: scale(1.1); 
-    transition: transform 0.3s ease; 
-    z-index: 1001;
+    color: #2672dc;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
 }
 .ect {
-  	position: absolute;
-  	top: 318px;
-  	right: -36px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 260px;
-  	height: 80px;
-  	flex-shrink: 0;
-    transition: all 0.4s ease;
+  	position: absolute;
+  	top: 318px;
+  	right: -36px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 260px;
+  	height: 80px;
+  	flex-shrink: 0;
+    transition: all 0.4s ease;
 }
 .ect:hover {
-    color: #2672dc;
-    transform: scale(1.1); 
-    transition: transform 0.3s ease; 
-    z-index: 1001;
-} 
+    color: #2672dc;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
+}
