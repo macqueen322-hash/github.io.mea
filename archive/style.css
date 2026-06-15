@@ -350,7 +350,6 @@ body {
     .div {
         width: 50% !important;
         height: auto !important; /* 내용물 높이에 맞춤 */
-        min-height: 482px; /* 최소 높이는 유지 */
         left: 5% !important;
         top: 218px;
     }
@@ -381,7 +380,6 @@ body {
     .div2 {
         width: 50% !important;
         height: auto !important;
-        min-height: 540px;
         left: 10% !important;
         top: 962px;
     }
