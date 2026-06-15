@@ -1,410 +1,231 @@
 html {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden; 
-    overflow-y: auto;   
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    overflow-y: auto;   
 }
 body {
-    margin: 0;
-    line-height: normal;
-    transform: scale(0.75);
-    transform-origin: 0 0; 
-    width: 133.33%;
-    overflow-x: hidden;
+    margin: 0;
+    line-height: normal;
+    transform: scale(0.75);
+    transform-origin: 0 0; 
+    width: 133.33%;
+    overflow-x: hidden;
 	overflow-y: visible;
 }
 .d {
-    width: 100%;
-    height: 2000px; 
-    position: relative;
-    background-color: #fff;
-    text-align: center;
-    font-size: 40px;
-    color: #000;
-    font-family: KoHo;
-    overflow: hidden; 
+    width: 100%;
+    height: 2000px; 
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    font-family: KoHo;
+    overflow: hidden; 
 }
 .rectangle-parent {
-  	position: absolute;
-  	bottom: 0px;
+  	position: absolute;
+  	bottom: 0px;
 	right: 0px;
-  	left: 0px;
-  	width: 100%;
-  	height: 144px;
-  	flex-shrink: 0;
-  	font-size: 16px;
-  	font-family: Jost;
+  	left: 0px;
+  	width: 100%;
+  	height: 144px;
+  	flex-shrink: 0;
+  	font-size: 16px;
+  	font-family: Jost;
 	z-index: 10;
 }
 .group-child {
-  	position: absolute;
-  	bottom: 0px;
-  	left: 0px;
-  	background-color: #eee;
-  	width: 100%;
-  	height: 144px;
+  	position: absolute;
+  	bottom: 0px;
+  	left: 0px;
+  	background-color: #eee;
+  	width: 100%;
+  	height: 144px;
 }
 .copyright2026-in9-icsin9gmai {
-  	position: absolute;
-  	bottom: 32px;
-  	right: 40px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 392px;
-  	height: 92px;
+  	position: absolute;
+  	bottom: 32px;
+  	right: 40px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 392px;
+  	height: 92px;
 }
 .div {
-  	position: absolute;
-  	top: 237px;
-  	left: 234px;
-  	box-shadow: 20px 30px 20.4px rgba(0, 0, 0, 0.25);
-  	background-color: #fff;
-  	width: 1063px;
-  	height: 595px;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 237px;
+  	left: 234px;
+  	box-shadow: 20px 30px 20.4px rgba(0, 0, 0, 0.25);
+  	background-color: #fff;
+  	width: 1063px;
+  	height: 595px;
+  	flex-shrink: 0;
 }
 .div2 {
-  	position: absolute;
-  	top: 1098px;
-  	left: 480px;
-  	box-shadow: 20px 30px 20.4px rgba(0, 0, 0, 0.25);
-  	background-color: #fff;
-  	width: 395px;
-  	height: 596px;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 1098px;
+  	left: 480px;
+  	box-shadow: 20px 30px 20.4px rgba(0, 0, 0, 0.25);
+  	background-color: #fff;
+  	width: 395px;
+  	height: 596px;
+  	flex-shrink: 0;
 }
 .jet {
-  	position: absolute;
-  	top: 204px;
-  	left: 209px;
-  	box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.29);
-  	width: 1063px;
-  	height: 595px;
-  	object-fit: cover;
-  	flex-shrink: 0;
-    transition: all 0.4s ease;
+  	position: absolute;
+  	top: 204px;
+  	left: 209px;
+  	box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.29);
+  	width: 1063px;
+  	height: 595px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+    transition: all 0.4s ease;
 }
 .jet:hover {
-    transform: scale(1.05); 
-    transition: transform 0.3s ease; 
-    z-index: 1001;
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
 }
 .can {
-  	position: absolute;
-  	top: 1100px;
-  	left: 460px;
-  	box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.25);
-  	width: 380px;
-  	height: 560px;
-  	object-fit: cover;
-  	flex-shrink: 0;
-    transition: all 0.4s ease;
+  	position: absolute;
+  	top: 1100px;
+  	left: 460px;
+  	box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.25);
+  	width: 380px;
+  	height: 560px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+    transition: all 0.4s ease;
 }
 .can:hover {
-    transform: scale(1.05); 
-    transition: transform 0.3s ease; 
-    z-index: 1001;
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
 }
 .div3 {
-  	position: absolute;
-  	top: 878px;
-  	left: 320px;
-  	font-size: 24px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 753px;
-  	height: 94px;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 878px;
+  	left: 320px;
+  	font-size: 24px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 753px;
+  	height: 94px;
+  	flex-shrink: 0;
 }
 .div4 {
-  	position: absolute;
-  	top: 1733px;
-  	left: 320px;
-  	font-size: 24px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 753px;
-  	height: 94px;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 1733px;
+  	left: 320px;
+  	font-size: 24px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 753px;
+  	height: 94px;
+  	flex-shrink: 0;
 }
 .header-menu {
-    position: absolute;    
-    top: 0px;           
-    right: 0px;        
-    width: 650px;       
-    height: 400px;      
-    z-index: 1005;     
+    position: absolute;    
+    top: 0px;           
+    right: 0px;        
+    width: 650px;       
+    height: 400px;      
+    z-index: 1005;     
 	transform-origin: right top;
 }
 .header-menu a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 .home {
-  	position: absolute;
-  	top: 20px;
-  	left: 27px;
-  	font-size: 32px;
-  	font-weight: 600;
-  	color: #2672dc;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 90px;
-  	height: 59px;
-  	cursor: pointer;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 20px;
+  	left: 27px;
+  	font-size: 32px;
+  	font-weight: 600;
+  	color: #2672dc;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 90px;
+  	height: 59px;
+  	cursor: pointer;
+  	flex-shrink: 0;
 }
 .d-modeling {
-  	position: absolute;
-  	top: 87px;
-  	right: 0px;
-  	font-size: 96px;
-  	color: #2672dc;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 622px;
-  	height: 158px;
-  	flex-shrink: 0;
+  	position: absolute;
+  	top: 87px;
+  	right: 0px;
+  	font-size: 96px;
+  	color: #2672dc;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 622px;
+  	height: 158px;
+  	flex-shrink: 0;
 }
 .archive {
-  	position: absolute;
-  	top: 31px;
-  	right: 0px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
+  	position: absolute;
+  	top: 31px;
+  	right: 0px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
 	color: #000000;
-  	width: 260px;
-  	height: 80px;
-  	cursor: pointer;
-  	flex-shrink: 0;
-    transition: all 0.4s ease;
+  	width: 260px;
+  	height: 80px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+    transition: all 0.4s ease;
 }
 .archive:hover {
-    color: #2672dc;
-    transform: scale(1.1); 
-    transition: transform 0.3s ease; 
-    z-index: 1001;
+    color: #2672dc;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
 }
 .project {
-  	position: absolute;
-  	top: 238px;
-  	right: -9px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
+  	position: absolute;
+  	top: 238px;
+  	right: -9px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
 	color: #000000;
-  	width: 260px;
-  	height: 80px;
-  	cursor: pointer;
-  	flex-shrink: 0;
-    transition: all 0.4s ease;
+  	width: 260px;
+  	height: 80px;
+  	cursor: pointer;
+  	flex-shrink: 0;
+    transition: all 0.4s ease;
 }
 .project:hover {
-    color: #2672dc;
-    transform: scale(1.1); 
-    transition: transform 0.3s ease; 
-    z-index: 1001;
+    color: #2672dc;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
 }
 .ect {
-  	position: absolute;
-  	top: 318px;
-  	right: -36px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 260px;
-  	height: 80px;
-  	flex-shrink: 0;
-    transition: all 0.4s ease;
+  	position: absolute;
+  	top: 318px;
+  	right: -36px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 260px;
+  	height: 80px;
+  	flex-shrink: 0;
+    transition: all 0.4s ease;
 }
 .ect:hover {
-    color: #2672dc;
-    transform: scale(1.1); 
-    transition: transform 0.3s ease; 
-    z-index: 1001;
-}
-@media (max-width: 768px) {
-    .d {
-        font-size: 24px;
-    }
-    .d-modeling {
-        font-size: 48px; 
-        width: auto;     
-        right: 20px;     
-    }
-    .home {
-        font-size: 20px; 
-    }
-    .archive, .project, .ect {
-        font-size: 24px; 
-        width: auto;     
-    }
-    .div3, .div4 {
-        font-size: 16px; 
-        width: 90%;     
-        left: 5%;        
-    }
-    .rectangle-parent {
-        font-size: 12px; 
-    }
-    .copyright2026-in9-icsin9gmai {
-        width: auto;    
-        right: 20px;
-        bottom: 20px;
-    }
-}
-@media (max-width: 480px) {
-    .d-modeling {
-        font-size: 36px; 
-    }
-    .div3, .div4 {
-        font-size: 14px;
-    }
-}
-@media (max-width: 1300px) {
-    /* 첫 번째 큰 이미지 (Jet) */
-    .jet {
-        /* 고정 폭(1063px)을 해제하고, 화면 너비에 맞춥니다. */
-        width: 90% !important; 
-        height: auto !important; /* 비율에 맞춰 높이 자동 조절 */
-        
-        /* absolute 위치를 중앙으로 잡습니다. */
-        left: 5% !important; 
-        top: 204px; /* 위쪽 여백은 유지 */
-    }
-
-    /* 첫 번째 이미지 밑의 그림자 박스(div)도 같이 조절 */
-    .div {
-        width: 90% !important;
-        height: auto !important; /* 내용물 높이에 맞춤 */
-        min-height: 595px; /* 최소 높이는 유지 */
-        left: 5% !important;
-        top: 237px;
-    }
-
-    /* 이미지 밑의 설명 텍스트 (div3) 위치 조정 */
-    .div3 {
-        width: 90% !important;
-        left: 5% !important;
-        /* 이미지가 줄어들면서 올라오므로, top 값을 적절히 조절해야 할 수 있습니다. */
-        top: 850px; 
-    }
-}
-
-/* ==========================================
-   작은 이미지 반응형 조절 (화면 폭 900px 이하부터 적용)
-   ========================================= */
-@media (max-width: 900px) {
-    /* 두 번째 세로 이미지 (Can) */
-    .can {
-        width: 80% !important; /* 가로폭을 좀 더 넓게 씁니다. */
-        height: auto !important;
-        left: 10% !important; /* 중앙 정렬 */
-        /* PC 버전의 위치(top: 1100px)가 너무 멀면 조절 */
-        top: 1000px; 
-    }
-
-    /* 두 번째 이미지 밑의 그림자 박스(div2)도 조절 */
-    .div2 {
-        width: 80% !important;
-        height: auto !important;
-        min-height: 596px;
-        left: 10% !important;
-        top: 998px;
-    }
-
-    /* 두 번째 설명 텍스트 (div4) 위치 조정 */
-    .div4 {
-        width: 90% !important;
-        left: 5% !important;
-        top: 1600px; /* 위치 조정 */
-    }
-}
-/* ==========================================
-   창 크기가 줄어들 때 발생하는 버그 수정용 미디어 쿼리
-   ========================================== */
-
-/* 1. 공통: 이미지가 원본보다 과도하게 커지는 현상 방지 */
-.jet, .can {
-    max-width: 100% !important;
-    height: auto !important; /* 가로가 줄어들 때 세로도 비율 맞춰 줄어듦 */
-}
-
-/* 2. 화면 가로폭이 1300px 이하로 떨어질 때 (노트북, 태블릿 등) */
-@media (max-width: 1300px) {
-    /* 여객기 이미지와 배경 박스가 같이 비율 맞춰 줄어들게 처리 */
-    .div {
-        width: 75% !important;
-        left: 12.5% !important; /* 중앙 정렬 계산 */
-    }
-    .jet {
-        width: 75% !important;
-        left: 11% !important; /* 원래 미세한 차이값 유지 */
-    }
-    .div3 {
-        width: 100% !important;
-        left: 0 !important;
-        font-size: 20px !important; /* 글자 크기 살짝 축소 */
-    }
-}
-
-/* 3. 화면 가로폭이 1024px 이하일 때 (모바일 및 좁은 화면) */
-@media (max-width: 1024px) {
-    /* [버그 수정 1] 오른쪽 배너가 화면 밖으로 잘리는 현상 방지 */
-    .header-menu {
-        right: 20px !important; /* 오른쪽 벽에 바짝 붙지 않게 여백 주기 */
-        width: auto !important; /* 고정폭 해제하여 화면 안으로 밀어넣기 */
-        transform: scale(0.8) !important; /* 모바일 전용 축소 비율 적용 */
-        transform-origin: right top !important;
-    }
-
-    /* 3D Modeling 글자가 우측으로 밀려 잘리는 걸 막기 위해 두 줄 배열로 유도 */
-    .d-modeling {
-        font-size: 72px !important; /* 원래 96px에서 축소 */
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-end !important;
-        line-height: 1.1 !important;
-        height: auto !important;
-    }
-    .d-modeling .txt-3d,
-    .d-modeling .txt-model {
-        display: block !important;
-    }
-
-    /* 자판기(Can) 이미지 크기 조절 */
-    .div2 {
-        width: 300px !important; /* 모바일 화면에 맞게 고정폭 축소 */
-        left: 50% !important;
-        transform: translateX(-50%); /* 정확한 가로 중앙 정렬 */
-    }
-    .can {
-        width: 290px !important;
-        left: 50% !important;
-        transform: translateX(-50%);
-    }
-    .div4 {
-        width: 100% !important;
-        left: 0 !important;
-        font-size: 18px !important;
-    }
-}
-
-/* 4. 화면 가로폭이 500px 이하일 때 (초소형 모바일) */
-@media (max-width: 500px) {
-    .header-menu {
-        transform: scale(0.65) !important; /* 화면이 아주 작을 때는 더 축소 */
-    }
-    .d-modeling {
-        font-size: 54px !important;
-    }
-    .div3, .div4 {
-        font-size: 16px !important;
-    }
-}
+    color: #2672dc;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
+} 이 웹사이트를 반응형으로 만들고 싶어. 페이지를 작은 창으로 띄우거나 모바일로 접속했을 때 크기가 조절되도록 말이야
