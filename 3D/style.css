@@ -370,7 +370,7 @@ body {
         font-size: 36px; 
     }
     .div3 {
-        top: 680px;                 /* 화면이 아주 좁아지면 텍스트가 줄바꿈되므로 위아래 간격 확보 */
+        top: 680px;                 
     }
     .can {
         top: 850px;
@@ -380,6 +380,6 @@ body {
     }
     .div4 {
         font-size: 14px;
-        top: 1250px;
+        top: 1300px;
     }
 }
