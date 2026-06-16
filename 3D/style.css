@@ -262,9 +262,8 @@ body {
 }
 /* --- 앞선 기본 스타일 생략 (동일) --- */
 
-/* [수정] 1063px 이하일 때 두 번째 사진 세트도 같이 반응하도록 포함 */
+/* 태블릿 및 PC 중간 크기 (1063px 이하) */
 @media (max-width: 1063px) {
-    /* 첫 번째 사진 세트 */
     .jet {
         width: 50% !important; 
         height: auto !important; 
@@ -283,27 +282,27 @@ body {
         top: 850px; 
     }
 
-    /* [추가/이동] 두 번째 사진 세트도 화면이 1063px 이하로 떨어지면 유연하게 변하도록 설정 */
+    /* [수정] 두 번째 사진이 글자를 가리지 않도록 크기를 더 줄이고 위치 조정 */
     .can {
-        width: 40% !important;       /* 화면 비율에 맞게 조정 (원하는 크기로 조절 가능) */
+        width: 30% !important;       /* 기존 50%/40%에서 30%로 더 작게 축소 */
         height: auto !important;
-        left: 30% !important;       /* 화면 중앙 쪽에 가깝게 배치되도록 조정 */
-        top: 1100px; 
+        left: 35% !important;       /* 중앙 정렬 느낌으로 배치 */
+        top: 1100px;                /* 시작 높이 */
     }
     .div2 {
-        width: 40% !important;
+        width: 30% !important;       /* 사진 크기에 맞춰 배경판도 축소 */
         height: auto !important;
-        left: 31% !important;       /* 배경 판도 사진 위치와 비슷하게 맞춤 */
+        left: 36% !important; 
         top: 1098px;
     }
     .div4 {
         width: 90% !important;
         left: 5% !important;
-        top: 1700px; 
+        top: 1550px;                /* [조정] 사진이 작아진 만큼 글자 위치를 약간 위로 당김 */
     }
 }
 
-/* 태블릿 및 모바일 공통 (768px 이하) */
+/* 모바일 환경 (768px 이하) */
 @media (max-width: 768px) {
     .d {
         font-size: 24px;
@@ -321,11 +320,40 @@ body {
         width: auto;
         right: 15px;
     }
-    .div3, .div4 {
-        font-size: 16px; 
-        width: 90%;      
-        left: 5%;        
+    
+    /* [수정] 모바일 화면에서는 사진과 글자가 겹치지 않게 순서대로 아래로 흐르도록 top 위치 재조정 */
+    .jet {
+        width: 80% !important;
+        left: 10% !important;
+        top: 200px;
     }
+    .div {
+        width: 80% !important;
+        left: 10% !important;
+        top: 220px;
+    }
+    .div3 {
+        width: 90% !important;
+        left: 5% !important;
+        top: 750px;                 /* 첫 번째 설명글 */
+    }
+
+    .can {
+        width: 50% !important;      /* 모바일에서는 적당히 보이도록 50% */
+        left: 25% !important;
+        top: 900px;                 /* 첫 번째 글 아래에 배치 */
+    }
+    .div2 {
+        width: 50% !important;
+        left: 26% !important;
+        top: 898px;
+    }
+    .div4 {
+        width: 90% !important;
+        left: 5% !important;
+        top: 1350px;                /* [중요] 두 번째 사진이 절대 가릴 수 없도록 top을 충분히 내림 */
+    }
+
     .rectangle-parent {
         font-size: 12px;
     }
@@ -334,16 +362,6 @@ body {
         right: 20px;
         bottom: 20px;
     }
-    
-    /* [선택 추가] 모바일로 갈수록 사진이 너무 작아진다면 가로폭을 더 넓혀줍니다 */
-    .can, .jet {
-        width: 80% !important;
-        left: 10% !important;
-    }
-    .div, .div2 {
-        width: 80% !important;
-        left: 10% !important;
-    }
 }
 
 /* 모바일 소형 (480px 이하) */
@@ -351,7 +369,17 @@ body {
     .d-modeling {
         font-size: 36px; 
     }
-    .div3, .div4 {
+    .div3 {
+        top: 680px;                 /* 화면이 아주 좁아지면 텍스트가 줄바꿈되므로 위아래 간격 확보 */
+    }
+    .can {
+        top: 850px;
+    }
+    .div2 {
+        top: 848px;
+    }
+    .div4 {
         font-size: 14px;
+        top: 1250px;
     }
 }
