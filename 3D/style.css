@@ -157,6 +157,7 @@ body {
   	height: 59px;
   	cursor: pointer;
   	flex-shrink: 0;
+	z-index: 1010;
 }
 .d-modeling {
   	position: absolute;
