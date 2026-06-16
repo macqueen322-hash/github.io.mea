@@ -12,45 +12,7 @@
   	
   	
 </head>
-	<script>
-    // 사이드바와 터치를 감지할 대상 지정
-    const sidebar = document.querySelector('.desktop-child');
-    let touchStartX = 0;
-    let touchEndX = 0;
-
-    // 1. 터치 시작 지점 저장
-    window.addEventListener('touchstart', (e) => {
-        touchStartX = e.changedTouches[0].screenX;
-    }, false);
-
-    // 2. 터치 종료 지점 계산 후 슬라이드 판정
-    window.addEventListener('touchend', (e) => {
-        touchEndX = e.changedTouches[0].screenX;
-        handleSwipe();
-    }, false);
-
-    function handleSwipe() {
-        const swipeDistance = touchStartX - touchEndX;
-
-        // 왼쪽으로 50px 이상 슬라이드 했을 때 -> 사이드바 열기
-        if (swipeDistance > 50) {
-            sidebar.classList.add('active');
-        }
-        
-        // 반대로 오른쪽으로 50px 이상 슬라이드 하면 -> 사이드바 다시 닫기
-        if (swipeDistance < -50) {
-            sidebar.classList.remove('active');
-        }
-    }
-
-    // (옵션) 사이드바 바깥 영역을 터치하면 자동으로 닫히게 설정
-    window.addEventListener('click', (e) => {
-        // 모바일 환경이고, 사이드바 바깥을 눌렀으며, 사이드바가 열려있을 때
-        if (window.innerWidth <= 1024 && !sidebar.contains(e.target) && touchStartX === touchEndX) {
-            sidebar.classList.remove('active');
-        }
-    });
-</script>
+	
 <body>
 
   	<div class="desktop">
