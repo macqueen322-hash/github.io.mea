@@ -248,6 +248,7 @@ body {
 
     /* 3. 텍스트 박스들을 절대 좌표가 아닌, 순서대로 흐르게 배치 및 폭 조절 */
     .mea, .multi-environmental-architectu, .mea2, .vision, .introduction, .mea3 {
+		max-width: 1528px
         position: relative !important;
         left: 5% !important;
         width: 90% !important;
