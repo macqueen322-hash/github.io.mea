@@ -260,15 +260,11 @@ body {
         bottom: 20px;
     }
 }
-@media (max-width: 480px) {
-    .d-modeling {
-        font-size: 36px; 
-    }
-    .div3, .div4 {
-        font-size: 14px;
-    }
-}
+/* --- 앞선 기본 스타일 생략 (동일) --- */
+
+/* [수정] 1063px 이하일 때 두 번째 사진 세트도 같이 반응하도록 포함 */
 @media (max-width: 1063px) {
+    /* 첫 번째 사진 세트 */
     .jet {
         width: 50% !important; 
         height: auto !important; 
@@ -286,24 +282,76 @@ body {
         left: 5% !important;
         top: 850px; 
     }
-}
-@media (max-width: 380px) {
+
+    /* [추가/이동] 두 번째 사진 세트도 화면이 1063px 이하로 떨어지면 유연하게 변하도록 설정 */
     .can {
-        width: 50% !important; 
+        width: 40% !important;       /* 화면 비율에 맞게 조정 (원하는 크기로 조절 가능) */
         height: auto !important;
-        left: 5% !important; 
+        left: 30% !important;       /* 화면 중앙 쪽에 가깝게 배치되도록 조정 */
         top: 1100px; 
     }
-
     .div2 {
-        width: 50% !important;
+        width: 40% !important;
         height: auto !important;
-        left: 10% !important;
-        top: 998px;
+        left: 31% !important;       /* 배경 판도 사진 위치와 비슷하게 맞춤 */
+        top: 1098px;
     }
     .div4 {
         width: 90% !important;
         left: 5% !important;
         top: 1700px; 
+    }
+}
+
+/* 태블릿 및 모바일 공통 (768px 이하) */
+@media (max-width: 768px) {
+    .d {
+        font-size: 24px;
+    }
+    .d-modeling {
+        font-size: 48px;
+        width: auto;     
+        right: 20px;     
+    }
+    .home {
+        font-size: 20px;
+    }
+    .archive, .project, .ect {
+        font-size: 24px;
+        width: auto;
+        right: 15px;
+    }
+    .div3, .div4 {
+        font-size: 16px; 
+        width: 90%;      
+        left: 5%;        
+    }
+    .rectangle-parent {
+        font-size: 12px;
+    }
+    .copyright2026-in9-icsin9gmai {
+        width: auto;    
+        right: 20px;
+        bottom: 20px;
+    }
+    
+    /* [선택 추가] 모바일로 갈수록 사진이 너무 작아진다면 가로폭을 더 넓혀줍니다 */
+    .can, .jet {
+        width: 80% !important;
+        left: 10% !important;
+    }
+    .div, .div2 {
+        width: 80% !important;
+        left: 10% !important;
+    }
+}
+
+/* 모바일 소형 (480px 이하) */
+@media (max-width: 480px) {
+    .d-modeling {
+        font-size: 36px; 
+    }
+    .div3, .div4 {
+        font-size: 14px;
     }
 }
