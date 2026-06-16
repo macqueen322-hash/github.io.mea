@@ -1,8 +1,235 @@
-/* --- 앞선 데스크톱 기본 스타일 생략 (동일) --- */
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    overflow-y: auto !important;   
+}
+body {
+    margin: 0;
+    line-height: normal;
+    transform: scale(0.75);
+    transform-origin: 0 0; 
+    width: 133.33%;
+	height: auto !important;
+    overflow: visible !important; 
+}
+.desktop {
+  	width: 100%;
+  	height: 1400px !important;
+  	position: relative;
+  	background-color: #eee;
+  	text-align: left;
+  	font-size: 20px;
+  	color: #000;
+  	font-family: KoHo;
+	overflow: visible !important;
+}
+.Gemini_Image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1515px;  
+    height: 665px;  
+    object-fit: cover;
+}
+.desktop-child {
+  	position: absolute;
+  	height: 100%;
+  	top: 0px;
+  	right: 0px;
+  	bottom: 0px;
+  	background-color: #fff;
+  	width: 500px;
+}
+.mea {
+  	position: absolute;
+  	top: 1px;
+  	left: 0px;
+  	font-size: 256px;
+  	color: #fff;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 627px;
+  	height: 243px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	opacity: 0.83;
+}
+.personal-portfolio {
+  	position: absolute;
+  	top: 14px;
+  	right: 36px;
+  	font-size: 32px;
+  	font-family: Jost;
+  	display: inline-block;
+  	width: 381px;
+  	height: 89px;
+}
+.copyright2026-in9-icsin9gmai {
+  	position: absolute;
+  	right: 47px;
+  	bottom: 32px;
+  	font-size: 16px;
+  	font-family: Jost;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 391px;
+  	height: 92px;
+}
+.desktop-item {
+  	position: absolute;
+  	top: 142px;
+  	right: 63px;
+  	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  	max-height: 100%;
+  	width: 350px;
+}
+.desktop-inner {
+  	position: sticky;
+  	top: 181px;
+  	left: 105%;
+  	width: 378px;
+  	height: 484px;
+  	font-size: 40px;
+}
+.archive-parent {
+  	position: relative;
+  	top: 0px;
+  	left: 0px;
+  	width: 378px;
+  	height: 437px;
+}
+.archive {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	width: 260px;
+  	height: 80px;
+  	cursor: pointer;
+	transition: all 0.4s ease;
+	color: #000000;
+}
+.archive:hover {
+	color: #2672dc;
+	transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
+}
+.d-modeling {
+  	position: absolute;
+  	width: 100%;
+  	top: 119px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	height: 80px;
+  	cursor: pointer;
+	transition: all 0.4s ease;
+	color: #000000;
+}
+.d-modeling:hover {
+	color: #2672dc;
+	transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
+}
+.project {
+  	position: absolute;
+  	top: 238px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	width: 260px;
+  	height: 80px;
+  	cursor: pointer;
+	transition: all 0.4s ease;
+	color: #000000;
+}
+.project:hover {
+	color: #2672dc;
+	transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
+}
+.ect {
+  	position: absolute;
+  	bottom: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	width: 260px;
+  	height: 80px;
+	transition: all 0.4s ease;
+}
+.ect:hover {
+    color: #2672dc;
+	transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    z-index: 1001;
+}
+.multi-environmental-architectu {
+  	position: absolute;
+  	top: 399px;
+  	left: 59px;
+  	font-size: 48px;
+  	color: rgba(255, 255, 255, 0.8);
+  	display: flex;
+  	align-items: center;
+  	width: 344px;
+  	height: 266px;
+  	text-shadow: 1px 0 0 rgba(255, 255, 255, 0.8), 0 1px 0 rgba(255, 255, 255, 0.8), -1px 0 0 rgba(255, 255, 255, 0.8), 0 -1px 0 rgba(255, 255, 255, 0.8);
+}
+.mea2 {
+  	position: absolute;
+  	top: 784px;
+  	left: 29px;
+  	font-family: 'IBM Plex Mono';
+  	color: #151f62;
+  	display: inline-block;
+  	width: 1446px;
+  	height: 224px;
+}
+.vision {
+  	position: absolute;
+  	top: 665px;
+  	left: 1170px;
+  	font-size: 96px;
+  	color: #2672dc;
+  	display: inline-block;
+  	width: 315px;
+  	height: 109px;
+}
+.introduction {
+  	position: absolute;
+  	top: 1065px;
+  	left: 29px;
+  	font-size: 64px;
+  	color: #2672dc;
+  	display: inline-block;
+  	width: 549px;
+  	height: 83px;
+}
+.mea3 {
+  	position: absolute;
+  	top: 1165px;
+  	left: 29px;
+  	font-family: 'IBM Plex Mono';
+  	color: #151f62;
+  	display: inline-block;
+  	width: 1410px;
+  	height: 235px;
+}
+/* --- 앞선 기본 스타일 생략 (동일) --- */
 
 /* [모바일/태블릿 반응형 미디어 쿼리 - 1024px 이하] */
 @media (max-width: 1024px) {
-    /* 전체 레이아웃 구조화 */
+    /* 1. 전체 화면 높이 제한 풀기 */
     .desktop {
         height: auto !important;
         min-height: 100vh;
@@ -11,169 +238,107 @@
         flex-direction: column;
     }
 
-    /* 1. 상단 이미지: 양 옆이 잘리더라도 높이를 확보 (object-fit: cover 사용) */
+    /* 2. 메인 사진 화면에 맞게 100% 채우기 */
     .Gemini_Image {
         position: relative !important;
         width: 100% !important;
-        height: 400px !important; /* 높이를 충분히 늘림 */
-        object-fit: cover !important;
-    }
-
-    /* 5. 사이드바 (오른쪽 흰색 판) 완전히 숨기기 */
-    .desktop-child, .desktop-item {
-        display: none !important;
-    }
-
-    /* 2. MEA 및 Multi Environmental Architecture를 상단 이미지 내부(위)로 배치 */
-    .mea {
-        position: absolute !important; /* 이미지 위에 띄우기 위해 absolute 유지 */
-        top: 40px !important;
-        left: 5% !important;
-        width: 90% !important;
         height: auto !important;
-        font-size: 72px !important; /* 이미지 안에서 조화롭도록 크기 조절 */
-        justify-content: flex-start !important;
-        z-index: 10;
+        aspect-ratio: 1515 / 665; /* 원래 비율 유지 */
     }
 
-    .multi-environmental-architectu {
-        position: absolute !important; /* 이미지 위에 띄우기 위해 absolute 유지 */
-        top: 140px !important;
-        left: 5% !important;
-        width: 90% !important;
-        height: auto !important;
-        font-size: 22px !important;
-        line-height: 1.3 !important;
-        z-index: 10;
-    }
-
-    /* 4. VISION을 mea2 위로 배치 (순서대로 흐르게 설정) */
-    .vision {
+    /* 3. 텍스트 박스들을 절대 좌표가 아닌, 순서대로 흐르게 배치 및 폭 조절 */
+    .mea, .multi-environmental-architectu, .mea2, .vision, .introduction, .mea3 {
         position: relative !important;
         left: 5% !important;
         width: 90% !important;
         height: auto !important;
         top: auto !important;
-        margin-top: 50px; /* 상단 이미지 구역과의 간격 */
-        font-size: 40px !important;
-        color: #2672dc !important;
+        text-align: left !important;
     }
 
-    .mea2 {
-        position: relative !important;
-        left: 5% !important;
-        width: 90% !important;
-        height: auto !important;
-        top: auto !important;
-        margin-top: 15px; /* VISION 바로 아래 배치 */
-        font-size: 16px !important;
-        line-height: 1.6 !important;
-    }
+    /* 4. 모바일 폰트 크기 최적화 (가독성 확보) */
+    .mea { font-size: 80px !important; margin-top: 20px; justify-content: flex-start; }
+    .multi-environmental-architectu { font-size: 24px !important; height: auto !important; margin-top: 10px; }
+    .vision { font-size: 36px !important; margin-top: 40px; }
+    .mea2 { font-size: 16px !important; margin-top: 10px; }
+    .introduction { font-size: 36px !important; margin-top: 40px; }
+    .mea3 { font-size: 16px !important; margin-top: 10px; padding-bottom: 160px; /* 푸터 여백 */ }
 
-    /* 하단 텍스트 영역 순서 정렬 */
-    .introduction {
-        position: relative !important;
-        left: 5% !important;
-        width: 90% !important;
-        height: auto !important;
-        top: auto !important;
-        margin-top: 50px;
-        font-size: 40px !important;
-    }
-
-    .mea3 {
-        position: relative !important;
-        left: 5% !important;
-        width: 90% !important;
-        height: auto !important;
-        top: auto !important;
-        margin-top: 15px;
-        font-size: 16px !important;
-        line-height: 1.6 !important;
-    }
-
-    /* 3. 메뉴 및 하단 푸터 영역 국한 스타일 수정 (폰트 깨짐 방지 및 중앙 정렬) */
-    .rectangle-parent {
-        position: relative !important;
-        width: 100% !important;
-        height: auto !important;
-        margin-top: 60px; /* 본문과의 간격 */
-        padding: 40px 0;
-        background-color: #eee !important; /* 배경판 통합 */
+    /* 5. 사이드바 (오른쪽 흰색 판) 숨기기 및 슬라이드 준비 */
+    .desktop-child {
+        position: fixed !important;
+        top: 0 !important;
+        right: -100% !important; /* 처음에는 화면 오른쪽에 완전히 숨김 */
+        width: 280px !important; /* 모바일에 알맞은 너비 */
+        height: 100vh !important;
+        z-index: 2000 !important;
+        transition: right 0.3s ease-in-out; /* 부드러운 슬라이드 애니메이션 */
+        box-shadow: -5px 0 15px rgba(0,0,0,0.1);
         display: flex;
         flex-direction: column;
-        align-items: center; /* 가로 중앙 정렬 */
-        justify-content: center;
-        gap: 8px; /* 글자 상하간 거리를 좁힘 */
+        padding: 20px;
+        box-sizing: border-box;
     }
 
-    .group-child {
-        display: none !important; /* 중복 배경 제거 */
+    /* JavaScript로 클래스가 붙었을 때 사이드바가 미끄러져 들어옴 */
+    .desktop-child.active {
+        right: 0 !important;
     }
 
-    /* 푸터 내의 텍스트 요소들 깨짐 방지 및 리셋 */
-    .personal-portfolio, .archive-parent, .archive, .d-modeling, .project, .ect, .copyright2026-in9-icsin9gmai {
-        position: relative !important;
-        top: auto !important;
-        left: auto !important;
-        right: auto !important;
-        bottom: auto !important;
-        width: auto !important;
-        height: auto !important;
-        transform: none !important; /* transform 깨짐 방지 */
-        text-align: center !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        white-space: nowrap; /* 좁은 화면에서 글자 줄바꿈되어 깨지는 현상 방지 */
-    }
-
+    /* 6. 사이드바 내부 요소(메뉴/포트폴리오 타이틀) 세로 정렬 및 크기 자동화 */
     .personal-portfolio {
-        font-size: 24px !important;
-        font-weight: bold;
-        margin-bottom: 15px; /* 메뉴와의 간격 */
-        color: #000;
+        position: relative !important;
+        top: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        font-size: 20px !important; /* 글자 크기 축소 */
+        margin-bottom: 30px;
     }
 
     .desktop-inner {
         position: relative !important;
-        top: auto !important;
-        left: auto !important;
+        top: 0 !important;
+        left: 0 !important;
         width: 100% !important;
         height: auto !important;
     }
 
     .archive-parent {
+        width: 100% !important;
+        height: auto !important;
+        display: flex;
         flex-direction: column;
-        gap: 10px; /* 메뉴 글자 상하 간격 좁힘 */
-        margin-bottom: 30px;
+        gap: 15px; /* 메뉴 간 간격 */
     }
 
     .archive, .d-modeling, .project, .ect {
-        font-size: 18px !important;
-        padding: 5px 0;
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        bottom: auto !important;
+        width: 100% !important;
+        height: 50px !important;
+        font-size: 18px !important; /* 메뉴 글자 크기 축소 */
     }
 
+    /* 하단 장식선 및 푸터 요소 모바일에서 불필요한 absolute 정리 */
+    .desktop-item { display: none !important; } /* 선 장식 숨김 */
+    .rectangle-parent, .group-child {
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 80px !important;
+        z-index: 1000;
+    }
     .copyright2026-in9-icsin9gmai {
+        position: absolute !important;
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        height: 80px !important;
         font-size: 12px !important;
-        color: #666;
-    }
-}
-
-/* 모바일 소형 화면 보정 (480px 이하) */
-@media (max-width: 480px) {
-    .Gemini_Image {
-        height: 320px !important; /* 너무 작은 화면에선 이미지 높이 살짝 조절 */
-    }
-    .mea {
-        font-size: 54px !important;
-        top: 30px !important;
-    }
-    .multi-environmental-architectu {
-        font-size: 16px !important;
-        top: 110px !important;
-    }
-    .vision, .introduction {
-        font-size: 32px !important;
     }
 }
