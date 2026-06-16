@@ -109,6 +109,7 @@ body {
   	height: 59px;
   	cursor: pointer;
   	flex-shrink: 0;
+	z-index: 1010;
 }
 .header-menu {
     position: absolute;
@@ -194,10 +195,9 @@ body {
     transition: transform 0.3s ease; 
     z-index: 1001;
 }
-/* 태블릿 / 가로폭이 줄어들기 시작할 때 (912px 이하) */
 @media (max-width: 912px) {
     .project {
-        height: 900px !important;    /* 부모 박스의 고정 높이를 줄여 하단 여백 최적화 */
+        height: 900px !important;   
     }
     .projectmea {
         width: 60% !important; 
@@ -207,19 +207,17 @@ body {
     }
     .div {
         width: 60% !important;
-        height: auto !important; /* 이미지 크기에 맞춰 배경판 높이도 자동화 */
+        height: auto !important; 
         left: 5% !important;
         top: 178px; 
     }
     .mea {
-        width: 90% !important;    /* 글자 상자가 찌그러지지 않게 폭을 넓힘 */
+        width: 90% !important;    
         left: 5% !important;
-        top: 600px;               /* [수정] 이미지가 작아진 만큼 위로 끌어올림 */
-        height: auto !important;  /* 사각형 높이 자동 조절 */
+        top: 600px;               
+        height: auto !important;  
     }
 }
-
-/* 모바일 일반 환경 (768px 이하) */
 @media (max-width: 768px) {
     .project {
         height: 850px !important; 
@@ -237,8 +235,6 @@ body {
         width: auto;
         right: 15px;
     }
-    
-    /* [수정] 모바일 화면에서 이미지가 더 작아지므로 위치 재조정 */
     .projectmea {
         width: 80% !important;
         left: 10% !important;
@@ -248,10 +244,10 @@ body {
         left: 10% !important;
     }
     .mea {
-        font-size: 16px !important; /* [수정] 기존 .div에 잘못 들어가 있던 폰트 크기를 .mea로 변경 */
+        font-size: 16px !important; 
         width: 80% !important;
         left: 10% !important;
-        top: 520px;                 /* 이미지 바로 밑에 오도록 배치 */
+        top: 520px;                 
     }
     
     .rectangle-parent {
@@ -263,8 +259,6 @@ body {
         bottom: 20px;
     }
 }
-
-/* 모바일 소형 환경 (480px 이하) */
 @media (max-width: 480px) {
     .project {
         height: 750px !important; 
@@ -273,7 +267,7 @@ body {
         font-size: 36px; 
     }
     .mea {
-        font-size: 14px !important; /* [수정] 소형 모바일에서 글자 크기 더 축소 */
-        top: 430px;                 /* 화면이 극도로 좁아질 때 위치 보정 */
+        font-size: 14px !important;
+        top: 430px;                 
     }
 }
