@@ -181,6 +181,7 @@ body {
   	height: 59px;
   	cursor: pointer;
   	flex-shrink: 0;
+	z-index: 1010;
 }
 .header-menu {
     position: absolute;
