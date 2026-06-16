@@ -261,9 +261,6 @@ body {
         bottom: 20px;
     }
 }
-/* --- 앞선 기본 스타일 생략 (동일) --- */
-
-/* 태블릿 및 PC 중간 크기 (1063px 이하) */
 @media (max-width: 1063px) {
     .jet {
         width: 50% !important; 
@@ -282,16 +279,14 @@ body {
         left: 5% !important;
         top: 850px; 
     }
-
-    /* [수정] 두 번째 사진이 글자를 가리지 않도록 크기를 더 줄이고 위치 조정 */
     .can {
-        width: 30% !important;       /* 기존 50%/40%에서 30%로 더 작게 축소 */
+        width: 30% !important;       
         height: auto !important;
-        left: 35% !important;       /* 중앙 정렬 느낌으로 배치 */
-        top: 1100px;                /* 시작 높이 */
+        left: 35% !important;      
+        top: 1100px;                
     }
     .div2 {
-        width: 30% !important;       /* 사진 크기에 맞춰 배경판도 축소 */
+        width: 30% !important;       
         height: auto !important;
         left: 36% !important; 
         top: 1098px;
@@ -299,7 +294,7 @@ body {
     .div4 {
         width: 90% !important;
         left: 5% !important;
-        top: 1550px;                /* [조정] 사진이 작아진 만큼 글자 위치를 약간 위로 당김 */
+        top: 1550px;                
     }
 }
 
@@ -321,8 +316,6 @@ body {
         width: auto;
         right: 15px;
     }
-    
-    /* [수정] 모바일 화면에서는 사진과 글자가 겹치지 않게 순서대로 아래로 흐르도록 top 위치 재조정 */
     .jet {
         width: 80% !important;
         left: 10% !important;
@@ -336,13 +329,13 @@ body {
     .div3 {
         width: 90% !important;
         left: 5% !important;
-        top: 750px;                 /* 첫 번째 설명글 */
+        top: 750px;                 
     }
 
     .can {
-        width: 50% !important;      /* 모바일에서는 적당히 보이도록 50% */
+        width: 50% !important;      
         left: 25% !important;
-        top: 900px;                 /* 첫 번째 글 아래에 배치 */
+        top: 900px;                 
     }
     .div2 {
         width: 50% !important;
@@ -352,7 +345,7 @@ body {
     .div4 {
         width: 90% !important;
         left: 5% !important;
-        top: 1350px;                /* [중요] 두 번째 사진이 절대 가릴 수 없도록 top을 충분히 내림 */
+        top: 1350px;                
     }
 
     .rectangle-parent {
@@ -364,8 +357,6 @@ body {
         bottom: 20px;
     }
 }
-
-/* 모바일 소형 (480px 이하) */
 @media (max-width: 480px) {
     .d-modeling {
         font-size: 36px; 
